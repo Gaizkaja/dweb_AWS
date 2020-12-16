@@ -2,7 +2,7 @@
 #### Lo primero que debemos hacer es crear una instancia una que hemos iniciado nos aparecera la siguiente pantalla 
 Aqui tenemos que elegir l sistema operativo en nuestro caso Ubuntu con la ultima version disponible 20.04 LTS.
 
-![Primera Captura](img/Cap1.png)
+![Primera Captura](https://raw.githubusercontent.com/gaizkaja/dweb_AWS/master/img/Cap1.png)
 #### Seguiremos el Wizard que nos ofrece AWS y en nuestro caso utilizaremos las opciones gratuitas.
 
 Como somos estudiantes nos acojeremos a las opciones gratuitas.
