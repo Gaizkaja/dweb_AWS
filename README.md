@@ -146,3 +146,42 @@ Es un sistema jerárquico que se ocupa de administrar los nombres de dominio. Un
 1. Dirección IP de nuestro dominio 
 2. Nombre asociado a la dirección de correo.
 3. Lo rellenamos para evitar el uso indebido del correo electronico.
+
+## ¿Cuántos servidores DNS existen ?
+  
+Exiten varios servidores DNS pero yo he elegido los siguientes:
+
+1. Servidor de resolución de código auxiliar DNS
+2. Servidor de resolución recursiva DNS
+3. Servidor autoritario de DNS
+
+## ¿Cuántas redirecciones DNS son posibles?
+
+Todas las necesarias hasta que encuentre la direccion IP que corresponda a la dirección solicitada.
+
+## ¿Que es un servidor DNS Raiz?
+
+Un servidor raíz es un servidor de nombres para la zona raíz del Sistema de nombres de dominio de Internet.​ Los servidores de nombres raíz son una parte fundamental de Internet, ya que son el primer paso en la resolución de los nombres de host legibles en direcciones IP que se utilizan en la comunicación entre los hosts de Internet.
+
+Una combinación de los límites en el DNS y de ciertos protocolos, a saber, como el tamaño de los paquetes no fragmentados en el User Datagram Protocol (UDP), se tradujo en un número limitado de direcciones de los servidores raíz que se pueden acomodar en respuestas a consultas DNS de nombres.
+
+## ¿Para qué montar un servidor si simplemente escribiendo en un fichero la relación IP/Nombre el sistema ya funcionaría?
+
+Por temas de seguridad, y si alguien quiere conectarse al servidor necesitaria tener en local el fichero /etc/hosts la resolución de nombres y si tienes un servidor cualquiera que sepa la dirección IP o la URL se podría conectar.
+
+##  ¿Es posible si dispones de una conexión a Internet con IP dinámica ofrecer servicios en Internet?
+No, ya que a la hora de conectarnos a ese servicio en especifico nos saltaría un error de dirección no encontrada. 
+
+## ¿cuál sería el proceso para encontrar la IP de la dirección web: http://www.debian.org/distrib/netinst?
+
+Lo primero que hacemos es introducir la dirección URL, luego esa petición llega al Servidor DNS Primario que hace una consulta Servidor DNS Raiz y responde con la dirección IP y nombre de un servidor DNS para el dominio superior .org.  Ahora El servidor vuelve a hacer una consulta pero esta vez al servidor DNS para el dominio .org, el cual te responde con la dirección IP y el nombre de los servidores de nombre para debian.org.   
+El  servidor DNS primario otra vez hace una consulta pero esta vez el servidor autoritario de debian.org el cual responde con la dirección IP de e corresponde. 
+
+Por último el servidor DNS Primario nos responde a la consulta direccionandonos a la pagina solicitada.
+
+
+## ¿Que es la ICANN?
+
+ICANN es una organización que opera a nivel multinacional/internacional y es la responsable de asignar las direcciones del protocolo IP, de los identificadores de protocolo, de las funciones de gestión del sistema de dominio y de la administración del sistema de servidores raíz.  
+ICANN se dedica a preservar la estabilidad de Internet por medio de procesos basados en el consenso.  
+ICANN coordina la administración de los elementos técnicos del Sistema de Nombres de Dominio (DNS) para garantizar la resolución unívoca de los nombres, de esta manera los usuarios puedan encontrar todas las direcciones IP sin ser repetidas.
