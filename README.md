@@ -36,7 +36,7 @@ Seguimos los pasos aqui referidos.
 
 Aqui lo que deberemos hacer es cambiar permisos al archivo que hemos creado nosotros le pondremos 400 con el comando *chmod 400 [nombre del archivo]*
 
-![Septima Captura ](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/img/Cap16.PNG)
+![Septima Captura ](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/img/Cap6.PNG)
 
 #### Ahora nos conectaremos por ssh
 
