@@ -170,7 +170,7 @@ Una combinación de los límites en el DNS y de ciertos protocolos, a saber, com
 Por temas de seguridad, y si alguien quiere conectarse al servidor necesitaria tener en local el fichero /etc/hosts la resolución de nombres y si tienes un servidor cualquiera que sepa la dirección IP o la URL se podría conectar.
 
 ##  ¿Es posible si dispones de una conexión a Internet con IP dinámica ofrecer servicios en Internet?
-No, ya que a la hora de conectarnos a ese servicio en especifico nos saltaría un error de dirección no encontrada. 
+Si, a través del servicio de DNS Dinamico que nos cambiaria nuestra IP en todos los sevidores. 
 
 ## ¿cuál sería el proceso para encontrar la IP de la dirección web: http://www.debian.org/distrib/netinst?
 
