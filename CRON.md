@@ -40,17 +40,17 @@ Lo primero que tenemos que hacer es iniciar el CRON al ser la primera vez que ut
 Ponemos en la ultima linea cuando queremos que se ejecute la tarea.
 
 Una vez hecho esto, tenemos que crear el script donde queremos guardar los contenidos generados por el CRONTAB.  
-![Segund Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/Crontab_2.PNG)
+![Segund Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/crontab_2.PNG)
 
 Este es el resultado, utilizando comando cat text.txt nos aparecera la siguiente linea.
-![Tercera Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/Crontab_3.PNG)
+![Tercera Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/crontab_3.PNG)
 
 ## Ejercicio 8
 
 En este ejercicio necesitaremos entrar de nuevo en el crontab -e y en el escribimos los siguiente.
-![Cuarta Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/Crontab_4.PNG)
+![Cuarta Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/crontab_4.PNG)
 Esto lo que nos ejecutará lo siguiente: todo los martes cada 15 minutos nos creará un archivo comprimido en la carpeta especificada en nuestro caso Copias.
 
 Y este es el resutado:  
-![Quinta Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/Crontab_5.PNG)
+![Quinta Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/crontab_5.PNG)
 
