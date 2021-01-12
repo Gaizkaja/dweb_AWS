@@ -36,21 +36,21 @@ Hace una comparación del dia de la semana con los establecido en este caso vier
 ## CRON Ejercicio 7
 
 Lo primero que tenemos que hacer es iniciar el CRON al ser la primera vez que utilizamos el CRONTAB tendremos que iniciarlo con el comando "crontab -l" para comprobar que no hay ningún CRONTAB iniciado. Para editarlo necesitamos el comando "crontab -e" y nos abrira un fichero en el cual debemos poner la linea de ejecucción.   
-![Primera Captura](CRONTAB/Crontab_1.png)
+![Primera Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/Crontab_1.PNG)
 Ponemos en la ultima linea cuando queremos que se ejecute la tarea.
 
 Una vez hecho esto, tenemos que crear el script donde queremos guardar los contenidos generados por el CRONTAB.  
-![Segund Captura](CRONTAB/Crontab_2.png)
+![Segund Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/Crontab_2.PNG)
 
 Este es el resultado, utilizando comando cat text.txt nos aparecera la siguiente linea.
-![Tercera Captura](CRONTAB/crontab_3.png)
+![Tercera Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/Crontab_3.PNG)
 
 ## Ejercicio 8
 
 En este ejercicio necesitaremos entrar de nuevo en el crontab -e y en el escribimos los siguiente.
-![Cuarta Captura](CRONTAB/crontab_4.png)
+![Cuarta Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/Crontab_4.PNG)
 Esto lo que nos ejecutará lo siguiente: todo los martes cada 15 minutos nos creará un archivo comprimido en la carpeta especificada en nuestro caso Copias.
 
 Y este es el resutado:  
-![Quinta Captura](CRONTAB/crontab_5.png)
+![Quinta Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/Crontab_5.PNG)
 
