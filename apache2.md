@@ -10,5 +10,5 @@ Lo que debemos hacer en este apartado es utilizar un comando que el el *a2enmod*
 Para activar el módulo correctamente deberemos hacer un *sudo systemctl restart apache2* para reiniciar el servicio de Apache.   
 ![Tercera Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/apache2.PNG)  
  Y para comprobar volvemos a utilizar el comando anterior. *apache2ctl -M*  
-![Cuarta Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/comp_2.PNG)
+![Cuarta Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/comp_2.PNG)  
 Y vemos como esta en el módulo status y el módulo info.
