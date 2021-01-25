@@ -10,7 +10,7 @@
 1.6 Redirigir www.apuntes.daw.net/buscador/ a www.google.es.   
 1.7 Ficheros log: apuntes.error.log y apuntes.access.log
 
-![Primera Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/Config_Apache2.PNG)  
+![Primera Captura](https://raw.githubusercontent.com/Gaizkaja/dweb_AWS/main/Config_Apache.PNG)  
 
 
 2. www.daw.net:443  
